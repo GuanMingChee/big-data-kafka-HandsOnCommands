@@ -24,11 +24,11 @@ To run Kafka Producer (write input), please run the command below (a '>' will ap
 <br/>
 `.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic winter-messages`
 <br/>
-The prompt will run as long as you you do not terminate the job.
+The prompt will run as long as you do not terminate the job.
 <br/>
 <br/>
 To run Kafka Consumer (display input entered using Kafka Producer), please run the command below (output instantly when there is new input):
 <br/>
 `.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic winter-messages --from-beginning`
 <br/>
-The prompt will run as long as you you do not terminate the job.
+The prompt will run as long as you do not terminate the job.
