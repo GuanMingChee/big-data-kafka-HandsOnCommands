@@ -1,4 +1,7 @@
 # big-data-kafka-HandsOnCommands
+<br/>
+To start Zookeeper, please use the command below:
+<br/>
 `.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties`
 <br/>
 `.\bin\windows\kafka-server-start.bat .\config\server.properties`
