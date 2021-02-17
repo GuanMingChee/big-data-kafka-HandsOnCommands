@@ -13,14 +13,14 @@ Use PowerShell to run the commands below. Make sure your PowerShell is at your k
 `.\bin\windows\kafka-server-start.bat .\config\server.properties`
 <br/>
 <br/>
-To create/delete/list topics, please run the commands below (change the command to --delete for delete purpose):
+**New Window** To create/delete/list topics, please run the commands below (change the command to --delete for delete purpose):
 <br/>
 `.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --create --topic winter-messages`
 <br/>
 `.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --list`
 <br/>
 <br/>
-**New Window** To run Kafka Producer (write input), please run the command below (a '>' will appear indicating awaiting input):
+**Can continue using previous window** To run Kafka Producer (write input), please run the command below (a '>' will appear indicating awaiting input):
 <br/>
 `.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic winter-messages`
 <br/>
