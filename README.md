@@ -14,18 +14,21 @@ To start Kafka, please run the command below (closing the Powershell window indi
 <br/>
 <br/>
 To create/delete/list topics, please run the commands below (change the command to --delete for delete purpose):
+<br/>
 `.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --create --topic winter-messages`
 <br/>
 `.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --list`
 <br/>
 <br/>
 To run Kafka Producer (write input), please run the command below (a '>' will appear indicating awaiting input):
+<br/>
 `.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic winter-messages`
 <br/>
 The prompt will run as long as you you do not terminate the job.
 <br/>
 <br/>
 To run Kafka Consumer (display input entered using Kafka Producer), please run the command below (output instantly when there is new input):
+<br/>
 `.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic winter-messages --from-beginning`
 <br/>
 The prompt will run as long as you you do not terminate the job.
